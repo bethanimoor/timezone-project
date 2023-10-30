@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>Timezone Project</title>
   </head>
   <body>
@@ -18,19 +19,19 @@
         <option value="bali">Bali</option>
         <option value="new-york">New York</option>
       </select>
-      <div class="city">
+      <div class="city" id="shanghai">
         <div>
           <h2>Shanghai 🇨🇳</h2>
-          <div class="date">October 30th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">15:49:22 <small>PM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
-          <h2>Venice 🇮🇹</h2>
-          <div class="date">October 30th 2023</div>
+          <h2>Paris 🇫🇷</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">15:49:22 <small>PM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
@@ -40,6 +41,6 @@
         >open sourced on GitHub</a
       >
     </footer>
-    <script src="src/index.js"></script>
+    <script src="src/script.js"></script>
   </body>
 </html>
